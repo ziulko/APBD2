@@ -12,7 +12,7 @@ public class Program {
             throw new ArgumentException("Tablica liczb nie może być pusta.");
         }
         
-        
+        Console.WriteLine("cos jest nie tak");
 
         return numbers.Average();
     }
