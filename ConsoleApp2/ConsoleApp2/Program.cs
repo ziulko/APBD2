@@ -11,6 +11,8 @@ public class Program {
         if (numbers == null || !numbers.Any()) {
             throw new ArgumentException("Tablica liczb nie może być pusta.");
         }
+        
+        
 
         return numbers.Average();
     }
